@@ -16,7 +16,7 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'MRCHE', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '一个普通的上海初中生👨‍🎓，欢迎关注', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.mrche.top', // 网站地址
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://mrche.top', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '车易达, 博客, MRCHE, 車氏, CBlog, cheyida', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXX
